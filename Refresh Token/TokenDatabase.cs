@@ -11,7 +11,7 @@ namespace Refresh_Token
             _dbPath = Path.Combine(env.ContentRootPath, "database");
         }
 
-        public Dictionary<string, TokenInfo>? Record => File.Exists(_dbPath)
+        public Dictionary<string, TokenInfo> Record => File.Exists(_dbPath)
             ? JsonSerializer.Deserialize<Dictionary<string, TokenInfo>>(File.ReadAllText(_dbPath))
             : new();
 
