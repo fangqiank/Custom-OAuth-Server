@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{CCA867ED-5AFE-4653-A424-8343445955C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refresh Token", "Refresh Token\Refresh Token.csproj", "{DDEA2317-49F3-4CDC-AE78-DC69136F02B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Refresh Token", "Refresh Token\Refresh Token.csproj", "{DDEA2317-49F3-4CDC-AE78-DC69136F02B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicAuthorization", "DynamicAuthorization\DynamicAuthorization.csproj", "{AE99CC25-13F7-4116-B02B-14E4CD0CCC41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{DDEA2317-49F3-4CDC-AE78-DC69136F02B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDEA2317-49F3-4CDC-AE78-DC69136F02B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDEA2317-49F3-4CDC-AE78-DC69136F02B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE99CC25-13F7-4116-B02B-14E4CD0CCC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE99CC25-13F7-4116-B02B-14E4CD0CCC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE99CC25-13F7-4116-B02B-14E4CD0CCC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE99CC25-13F7-4116-B02B-14E4CD0CCC41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
