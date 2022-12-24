@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Refresh Token", "Refresh Token\Refresh Token.csproj", "{DDEA2317-49F3-4CDC-AE78-DC69136F02B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicAuthorization", "DynamicAuthorization\DynamicAuthorization.csproj", "{AE99CC25-13F7-4116-B02B-14E4CD0CCC41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicAuthorization", "DynamicAuthorization\DynamicAuthorization.csproj", "{AE99CC25-13F7-4116-B02B-14E4CD0CCC41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console Auth App", "Console Auth App\Console Auth App.csproj", "{5DCA2635-2657-42ED-9135-1D9B2C3D7416}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{AE99CC25-13F7-4116-B02B-14E4CD0CCC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE99CC25-13F7-4116-B02B-14E4CD0CCC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE99CC25-13F7-4116-B02B-14E4CD0CCC41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DCA2635-2657-42ED-9135-1D9B2C3D7416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DCA2635-2657-42ED-9135-1D9B2C3D7416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DCA2635-2657-42ED-9135-1D9B2C3D7416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DCA2635-2657-42ED-9135-1D9B2C3D7416}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
